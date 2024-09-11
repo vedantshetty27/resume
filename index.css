@@ -206,7 +206,7 @@ span{
 .typing-text span::before{
     content: "software Developer";
     color: #b700ff;
-    animation: words 20s infinite;
+    animation: words 9s infinite;
 }
 
 .typing-text span::after{
