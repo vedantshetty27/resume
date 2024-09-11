@@ -1,4 +1,5 @@
 Vedant Shetty's Resume Website
+
 Welcome to the repository for Vedant Shetty's resume website! This site serves as a professional portfolio, showcasing my skills, experiences, and projects.
 
 Features
