@@ -227,15 +227,21 @@ span{
 @keyframes words{
     0%, 25%{
         content: "Ethical Hacker";
+    0%, 33%{
+        content: "Gmail";
     }
     26%, 50%{
         content: "Researcher";
+    34%, 66%{
+        content: "LinkedIn";
     }
     51%, 75%{
         content: "Mentor";
     }
     76%, 100%{
         content: "Entrepreneurial";
+    67%, 100%{
+        content: "Discord";
     }
 }
 
