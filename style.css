@@ -64,38 +64,6 @@ nav a.active{
     border-bottom: 3px solid #b700ff;
 }
 
-@media(max-width:995px){
-    nav{
-        position: absolute;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid #b700ff;
-        border-bottom: 3px solid #b700ff;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: #161616;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
-    }
-
-    nav.active{
-        display: block;
-    }
-
-    nav a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a.active{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #b700ff;
-    }
-}
 
 section{
     min-height: 100vh;
@@ -248,28 +216,65 @@ span{
     }
 }
 
-@media (max-width: 1000px){
-    .home{
-        gap: 4rem;
+@media(max-width:746px){
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #b700ff;
+        border-bottom: 3px solid #b700ff;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
     }
-}
 
-@media(max-width:995px){
-    .home{
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a.active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #b700ff;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .home {
         flex-direction: column;
-        margin: 5rem 4rem;
+        gap: 2rem;
+        padding: 5rem 2rem;
+        background-image: url('./images/main.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
-    .home .home-content h3{
-        font-size: 2.5rem;
+    .home-content h1 {
+        font-size: 4rem;
+        text-align: center;
     }
 
-    .home-content h1{
-        font-size: 5rem;
+    .home-content h3,
+    .home-content p {
+        font-size: 1.6rem;
+        text-align: center;
     }
 
-    .home-img img{
-        width: 70vw;
-        margin-top: 4rem;
+    .typing-text {
+        font-size: 2.4rem;
     }
+    
 }
