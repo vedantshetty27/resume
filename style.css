@@ -217,6 +217,22 @@ span{
 }
 
 @media(max-width:746px){
+
+    header {
+        margin-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: transparent;
+        filter: drop-shadow(10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
     nav{
         position: absolute;
         display: none;
@@ -275,6 +291,17 @@ span{
 
     .typing-text {
         font-size: 2.4rem;
+    }
+
+    .typing-text span::after {
+        content: "";
+        background-color: transparent;
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 100%;
+        border-left: 3px solid black;
+        right: -8;
+        animation: cursor 0.6s infinite;
     }
     
 }
