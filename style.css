@@ -216,6 +216,171 @@ span{
     }
 }
 
+.typing-skill{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-skill span{
+    position: relative;
+}
+
+.typing-skill span::before{
+    content: "software Developer";
+    color: #b700ff;
+    animation: skills 9s infinite;
+}
+
+.typing-skill span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.6s infinite;
+}
+
+@keyframes skills{
+    0%, 25%{
+        content: "Pentesting";
+    }
+    26%, 50%{
+        content: "VAPT/Reporting";
+    }
+    51%, 75%{
+        content: "OSINT";
+    }
+    76%, 100%{
+        content: "Forensics";
+    }
+}
+
+.typing-exp{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-exp span{
+    position: relative;
+}
+
+.typing-exp span::before{
+    content: "software Developer";
+    color: #b700ff;
+    animation: exp 9s infinite;
+}
+
+.typing-exp span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.6s infinite;
+}
+
+@keyframes exp{
+    0%, 25%{
+        content: "Ethical Hacker";
+    }
+    26%, 50%{
+        content: "Researcher";
+    }
+    51%, 75%{
+        content: "IoT Developer";
+    }
+    76%, 100%{
+        content: "Entrepreneurial";
+    }
+}
+
+.typing-proj{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-proj span{
+    position: relative;
+}
+
+.typing-proj span::before{
+    content: "software Developer";
+    color: #b700ff;
+    animation: proj 9s infinite;
+}
+
+.typing-proj span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.6s infinite;
+}
+
+@keyframes proj{
+    0%, 25%{
+        content: "Evil-Teen";
+    }
+    26%, 50%{
+        content: "Nyoibo";
+    }
+    51%, 75%{
+        content: "EMS Framework";
+    }
+    76%, 100%{
+        content: "ハック-Station";
+    }
+}
+
+.typing-me{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.typing-me span{
+    position: relative;
+}
+
+.typing-me span::before{
+    content: "software Developer";
+    color: #b700ff;
+    animation: me 9s infinite;
+}
+
+.typing-me span::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid black;
+    right: -8;
+    animation: cursor 0.6s infinite;
+}
+
+@keyframes me{
+    0%, 33%{
+        content: "Gmail";
+    }
+    34%, 66%{
+        content: "Discord";
+    }
+    67%, 100%{
+        content: "LinkedIn";
+    }
+}
+
 @media(max-width:746px){
 
     header {
